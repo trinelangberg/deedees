@@ -1,0 +1,49 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.navbar {
+	background-color: #478543;
+}
+.navbar-default .navbar-nav > li > a{
+	color: white;
+}
+.navbar-toggle {
+	background-color: white;
+}
+ .navbar-fixed-top .navbar-collapse,
+  .navbar-fixed-bottom .navbar-collapse {
+   margin-top: 30px;
+  }
+
+.navcenter {
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+	color: white; 
+	font-size: 30px;
+	
+}
+.imagesmobile {
+	position: relative;
+	width: inherit;
+	opacity: 0.9;
+}
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 80px;
+	color: white; 
+	text-shadow: 3px 2px black;
+}
+h4,h5,p {
+	color: white;
+}
+.insta {
+	float: right;
+}
+.insta, .facebook{
+	padding-top: 15px;
+}

@@ -1,0 +1,308 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.navbar {
+	background-color: #478543;
+}
+.navbar-default .navbar-nav > li > a{
+	color: white;
+	font-family: 'Tahoma', Arial, sans-serif;
+}
+.navbar-toggle {
+	background-color: white;
+}
+ .navbar-fixed-top .navbar-collapse,
+  .navbar-fixed-bottom .navbar-collapse {
+   margin-top: 30px;
+  }
+
+.navcenter {
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+	color: white; 
+	font-size: 30px;
+	font-family: 'Tahoma', Arial, sans-serif;
+	
+}
+
+.logo {
+	width: 20%;
+}
+
+
+.forside {
+	width: 100%;
+}
+
+.newsmobile {
+	padding-top: 50px;
+}
+
+.imagesmobile {
+	position: relative;
+	width: inherit;
+	opacity: 0.9;
+}
+
+
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 80px;
+	color: white; 
+	text-shadow: 3px 2px black;
+	font-family: 'Tahoma', Arial, sans-serif;
+}
+
+h1 {
+	text-align: center;
+	color: #478543;
+	padding-top: 80px;
+	padding-left: 10px;
+	font-family: 'Tahoma', Arial, sans-serif;
+}
+h3 {
+	text-align: center;
+	color: #478543;
+	padding-top: 80px;
+	padding-left: 10px;
+	font-family: 'Tahoma', Arial, sans-serif;
+}
+h4,h5,p {
+	color: white;
+	font-family: 'Tahoma', Arial, sans-serif;
+}
+.carotext {
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 80px;
+	color: white; 
+	text-shadow: 3px 2px black;
+	font-family: 'Tahoma', Arial, sans-serif;
+	padding-bottom: 650px;
+}
+.carounder {
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 40px;
+	color: white; 
+	text-shadow: 3px 2px black;
+	font-family: 'Tahoma', Arial, sans-serif;
+	padding-bottom: 400px;
+}
+.list {
+	text-align: center;
+	color: #478543;
+	font-size: 20px;
+	font-family: 'Tahoma', Arial, sans-serif;
+}
+.filo {
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	color: #478543;
+	font-size: 20px;
+	font-family: 'Tahoma', Arial, sans-serif;
+}
+a {
+	color: #478543;
+	text-decoration: none;
+	font-family: 'Tahoma', Arial, sans-serif;
+}
+.border {
+	border-bottom: 1px solid #478543;
+	padding: 10px 10px ;
+}
+.megaborder {
+	border-bottom: 1px solid #478543;
+	padding-top: 80px;
+	padding-left: 10px;
+}
+
+
+#imgsandwiches {
+		background-image: url(../images/backgroundsand.jpg);
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+
+.sandwichheader {
+	padding-top: 100px;
+	text-align: center;
+	font-family: 'Tahoma', Arial, sans-serif;
+	font-size: 50px;
+	text-shadow: 3px 2px black;
+	
+}
+.sandwichtop {
+	text-align: center;
+	font-family: 'Tahoma', Arial, sans-serif;
+	text-shadow: 2px 2px black;
+	color: white;
+	font-size: 35px;
+	
+}
+.sandwichunder {
+	font-family: 'Tahoma', Arial, sans-serif;
+	text-shadow: 1px 2px black;
+	color: white;
+	font-size: 20px;
+}
+.sandwichpadding {
+	padding-left: 40px;
+	
+}
+
+.toastheader {
+	padding-top: 100px;
+	text-align: center;
+	font-family: 'Tahoma', Arial, sans-serif;
+	font-size: 50px;
+	text-shadow: 3px 2px black;
+}
+.toastpadding {
+	padding-left: 40px;
+	padding-top: 80px;
+	padding-bottom: 250px;
+}
+#pastabackground {
+	background-image: url(../images/pastadark.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.pastatop {
+	text-align: center;
+	font-family: 'Tahoma', Arial, sans-serif;
+	text-shadow: 2px 2px black;
+	color: white;
+	font-size: 35px;
+
+}
+.pastaunder {
+	font-family: 'Tahoma', Arial, sans-serif;
+	text-shadow: 2px 1px black;
+	color: white;
+	font-size: 20px;
+	padding-top: 20px;
+	padding-bottom: 200px;
+	padding-left: 20px;
+}
+.salattop {
+	text-align: center;
+	font-family: 'Tahoma', Arial, sans-serif;
+	text-shadow: 2px 2px black;
+	color: white;
+	font-size: 35px;
+	padding-top: 50px;
+}
+.salatunder {
+	font-family: 'Tahoma', Arial, sans-serif;
+	text-shadow: 1px 2px black;
+	color: white;
+	font-size: 20px;
+	text-align: center;
+	padding-bottom: 200px;
+	
+}
+
+#muffinbackground {
+	background-image: url(../images/muffinbackground.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.muffintop {
+	text-align: center;
+	font-family: 'Tahoma', Arial, sans-serif;
+	text-shadow: 2px 2px black;
+	color: white;
+	font-size: 35px;
+	padding-top: 90px;
+	
+}
+
+.cookieheader {
+	padding-top: 240px;
+	text-align: center;
+	font-family: 'Tahoma', Arial, sans-serif;
+	font-size: 50px;
+	text-shadow: 3px 2px black;
+}
+
+.cookietop {
+	text-align: center;
+	font-family: 'Tahoma', Arial, sans-serif;
+	text-shadow: 2px 2px black;
+	color: white;
+	font-size: 35px;
+	padding-top: 130px;
+	padding-bottom: 190px;
+}
+
+.bestil {
+	padding-top: 120px;
+}
+
+textarea {
+	margin-left: 80px;
+	margin-top: 30px;
+}
+
+.insta, .facebook{
+	padding-top: 15px;
+	width: 50px;
+	display: inline;
+	margin-left: 20px;
+	
+}
+
+
+@media only screen and (max-width: 767px){
+	body {
+		width: 100%;
+	}	
+	.carousel{
+		display: none;
+	}
+	.sandwichheader, .sandwichpadding, .sandwichtop, .sandwichunder, #imgsandwiches {
+		display: none;
+	}
+	#pastabackground, .pastatop, .pastaunder {
+		display: none;
+	}
+	#muffinbackground, .muffintop, .cookieheader, .cookietop {
+		display: none;
+	}
+
+
+	
+}
+@media only screen and (min-width: 768px){
+	body {
+		width: 100%;
+	}
+	.newsmobile, .studie, .levering {
+		display:none;
+	}
+	.center {
+		display: none;
+	}
+	.mobilesandwiches{
+		display: none;
+	}
+	.pastapics {
+		display: none;
+	}
+	.muffinpics {
+		display: none;
+	}
+
+}
